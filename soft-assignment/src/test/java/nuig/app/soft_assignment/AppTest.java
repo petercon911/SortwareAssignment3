@@ -25,5 +25,11 @@ public class AppTest
     {
         if (test.getAge() == 22) 
         	assert(true);
+    } 
+    public void shouldAnswerWithfalse()
+    {
+        if (test.getName().isEmpty()) 
+        	assert(false);
     }
+    
 }
